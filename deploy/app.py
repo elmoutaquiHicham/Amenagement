@@ -5,7 +5,7 @@ import pandas as pd
 @st.cache
 def load_data():
     # Remplacez 'nom_du_fichier.csv' par le nom de votre fichier CSV contenant les données des bungalows
-    return pd.read_excel('deploy/bungalow_tk.xlsx')
+    return pd.read_excel('deploy/bungalow_tk.csv')
 
 # Fonction pour filtrer les références en fonction des valeurs sélectionnées
 def filter_references(data, filters):
